@@ -5,12 +5,10 @@ Step by step on how to create a space with snapshot and how to use it
 ## Instructions
 ### Register google cloud DNS (.xyz) with ENS 
 #### 1. Setting up DNSSEC on your cloud DNS dashboard (Whatever provider you need, make sure you select RSA signatures and SHA256 hashing)
-Insert pic here
+![alt settingUpDns](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/turn_on_dnssec.png)
 
-#### 2. Add a subdomain record for ENS (_ens.yourdomainname.xyz)
-
-Insert pic here
-![alt deployOutput](https://github.com/Zilan-Ouyang/merkle_distributor_airdrop_front_end/blob/main/screenshots/deployOutput.png)
+#### 2. Add a subdomain record for ENS (_ens.yourdomainname.xyz) and set TXT data with your owner wallet address
+![alt settingUpDns](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/create_record_set.png)
 
 #### 3. Integrate the smart contract into your front end
 
