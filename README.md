@@ -53,3 +53,8 @@ you can replace the existing token address with your own deployed token address:
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/account_permission.png)
 
 ### Create proposal on snapshot space
+After everything has been setup, you can go to your space dashboard (https://snapshot.org/#/<your-ENS_domain>):
+![alt creatingSnapshotProposal](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/dashboard.png)
+#### Creating new proposal: 
+![alt creatingSnapshotProposal](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/creating_proposal.png)
+Members' proposals will be shown under core proposals
