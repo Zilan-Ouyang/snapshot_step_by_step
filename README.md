@@ -40,3 +40,5 @@ Copy the ipns record and set the record on ENS, so you can use the wallet to pro
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/add_record_on_ens.png)
 ##### 2. Select "text" as record type, and create "snapshot" key, then paste ipns url to the input field:
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/paste_ipns_to_text_record.png)
+##### 3. After snapshot record has been set on ENS, go back to snapshot page and refresh it, you'll be redirected to the space setting page:
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/space_setting.png)
