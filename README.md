@@ -21,4 +21,22 @@ You can find the DS record information from your google cloud DNS - Registar Set
 There shouldn't be any error or warning message showing on the table
 ![alt settingUpDns](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/dnssec_debugger.png)
 
-### Register google cloud DNS (.xyz) with ENS 
+### Claiming your DNS domain in ENS:
+#### 1. Go to ENS manager, and input your domain name into the search box (https://app.ens.domains/)
+This step has to be done on Ethereum main network - you need to have enought eth in your metamask wallet for registration fee and gas fee etc. 
+
+#### 2. Once the domain has been claimed successfuly, you can proceed to setting up the resolver of your ens domain:
+A resolver is a contract that maps from name to resource (eg, Ethereum account address, public key, content hash, etc).
+You can choose to use the public resolver or enter the address of your custom resolver contract, public resolver implements a general-purpose ENS resolver that is suitable for most standard ENS use-cases. The public resolver permits updates to ENS records by the owner of the corresponding name. 
+
+### Create snapshot space with your ENS (this can be done on mainnet and testnet)
+#### 1. Create new space:
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/create_space.png)
+#### 2. add IPNS recrod to your ENS
+the IPNS record is pointed to the wallet address you use to create the space:
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/set_ipns_record.png)
+Copy the ipns record and set the record on ENS, so you can use the wallet to proceed to creating the space on snapshot (this step also has to be done on mainnet, makes sure you have enough gas fee in your wallet for record setting transaction):
+##### 1. Click on "ADD/EDIT RECORD"
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/add_record_on_ens.png)
+##### 2. Select "text" as record type, and create "snapshot" key, then paste ipns url to the input field:
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/paste_ipns_to_text_record.png)
