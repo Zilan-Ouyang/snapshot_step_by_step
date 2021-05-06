@@ -3,7 +3,7 @@
 Step by step on how to create a space with snapshot and how to use it
 
 ## Instructions
-### Register google cloud DNS (.xyz) with ENS 
+### Register google cloud DNS (.xyz)
 #### 1. Setting up DNSSEC on your cloud DNS dashboard (Whatever provider you need, make sure you select RSA signatures and SHA256 hashing)
 ![alt settingUpDns](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/turn_on_dnssec.png)
 
@@ -20,3 +20,5 @@ You can find the DS record information from your google cloud DNS - Registar Set
 #### 4. Check if DNS has been setup and DS record has been added sucessfully (https://dnssec-debugger.verisignlabs.com/):
 There shouldn't be any error or warning message showing on the table
 ![alt settingUpDns](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/dnssec_debugger.png)
+
+### Register google cloud DNS (.xyz) with ENS 
