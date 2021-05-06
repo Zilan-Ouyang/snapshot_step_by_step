@@ -51,6 +51,11 @@ you can replace the existing token address with your own deployed token address:
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/erc-20-balance_strategy.png)
 ##### 6. Add Admin and members of your space:
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/account_permission.png)
+##### 7. Add filters on showing proposals created within the space:
+**Min. score** is used to define a minimum amount of token to be able to create a proposal
+**Show only member switch** can be switched on to only allow members to create a proposal
+**Invalid proposal input box** can be used to void proposals within the space
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/filter.png)
 
 ### Create proposal on snapshot space
 After everything has been setup, you can go to your space dashboard (https://snapshot.org/#/<your-ENS_domain>):
