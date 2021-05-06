@@ -42,3 +42,10 @@ Copy the ipns record and set the record on ENS, so you can use the wallet to pro
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/paste_ipns_to_text_record.png)
 ##### 3. After snapshot record has been set on ENS, go back to snapshot page and refresh it, you'll be redirected to the space setting page:
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/space_setting.png)
+##### 4. You can set up your space profile (Name, Description, network, Symbol, Avatar etc.):
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/setting_up_profile.png)
+##### 5. Set up strategies used by the snapshot space to decide the voting power of each voter:
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/strategies.png)
+##### 6. Add Admin and members of your space:
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/account_permission.png)
+
