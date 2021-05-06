@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "dotenv": "^8.2.0",
+    "openzeppelin-solidity": "^4.1.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
