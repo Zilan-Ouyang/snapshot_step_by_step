@@ -46,6 +46,10 @@ Copy the ipns record and set the record on ENS, so you can use the wallet to pro
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/setting_up_profile.png)
 ##### 5. Set up strategies used by the snapshot space to decide the voting power of each voter:
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/strategies.png)
+Choose the strategy you are going to use to calculate the voting power/score of each voter, "erc20-balance-of" will be used as an example:
+you can replace the existing token address with your own deployed token address:
+![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/erc-20-balance_strategy.png)
 ##### 6. Add Admin and members of your space:
 ![alt settingUpSnapshot](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/account_permission.png)
 
+### Create proposal on snapshot space
