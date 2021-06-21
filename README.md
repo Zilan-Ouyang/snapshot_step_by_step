@@ -11,7 +11,7 @@ Step by step on how to create a space with snapshot and how to use it
 ![alt settingUpDns](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/create_record_set.png)
 
 #### 3. Set up DNSSEC security
-Go to https://domains.google.com/registrar/<your-domain>/dns, add DS record:
+Go to https://domains.google.com/registrar/your-domain/dns, add DS record:
  ![alt settingUpDns](https://github.com/Zilan-Ouyang/snapshot_step_by_step/blob/main/screenshots/google_domain.png)
 
 You can find the DS record information from your google cloud DNS - Registar Setup (key tag, Algorithm, Digest type, Digsest): 
